@@ -5,4 +5,9 @@ cd hominlinx_vim
 mv vimrc ~/.vimrc
 mv vim ~/.vim
 vi
+cd ~/.vim/bundle/YouCompleteMe/
+.install.sh --clang-comleter
+mkdir ./cpp/
+mkdir ./cpp/ycm
+cp ./third_party/ycmd/cpp/ycm/.ycm_extra_conf.py  ./cpp/ycm/
 ```

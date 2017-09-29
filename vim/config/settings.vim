@@ -4,7 +4,7 @@
 "Email:hominlinx@gmail.com
 "=============================================
 "winpos 5 5             " 设定窗口位置  
-set lines=40 columns=150    " 设定窗口大小  
+"set lines=40 columns=150    " 设定窗口大小  
 "set go=                " 不要图形按钮  
 set guifont=Courier_New:h10:cANSI   " 设置字体  
 set ruler               " 打开状态栏标尺

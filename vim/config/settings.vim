@@ -97,7 +97,7 @@ set noexpandtab                  " 不要用空格代替制表符
 set gdefault                     " 全局收缩替换
 set foldenable                   " 允许折叠  
 set foldcolumn=0
-set foldmethod=marker            " marker 折叠方式
+set foldmethod=indent            " marker 折叠方式
 set foldlevel=3 
 
 set cino=:0g0t0(sus
@@ -111,8 +111,8 @@ func SetTitle()
     if &filetype == 'sh' 
         call setline(1,"\#####################") 
         call append(line("."), "\# File Name: ".expand("%")) 
-        call append(line(".")+1, "\# Author: ma6174") 
-        call append(line(".")+2, "\# mail: ma6174@163.com") 
+        call append(line(".")+1, "\# Author: Xinhuang Tang") 
+        call append(line(".")+2, "\# mail: tangxinhuang@live.com") 
         call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
         call append(line(".")+4, "\###########################") 
         call append(line(".")+5, "\#!/bin/bash") 
@@ -120,8 +120,8 @@ func SetTitle()
     else 
         call setline(1, "/***********************") 
         call append(line("."), "    > File Name: ".expand("%")) 
-        call append(line(".")+1, "    > Author: ma6174") 
-        call append(line(".")+2, "    > Mail: ma6174@163.com ") 
+        call append(line(".")+1, "    > Author: Xinhuang Tang") 
+        call append(line(".")+2, "    > Mail: tangxinhuang@live.com ") 
         call append(line(".")+3, "    > Created Time: ".strftime("%c")) 
         call append(line(".")+4, " **************************/") 
         call append(line(".")+5, "")

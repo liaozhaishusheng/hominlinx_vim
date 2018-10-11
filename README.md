@@ -9,5 +9,6 @@ cd ~/.vim/bundle/YouCompleteMe/
 ./install.sh --clang-completer
 mkdir ./cpp/
 mkdir ./cpp/ycm
+cp ./third_party/ycmd/examples/.ycm_extra_conf.py ./third_party/ycmd/cpp/ycm/
 cp ./third_party/ycmd/cpp/ycm/.ycm_extra_conf.py  ./cpp/ycm/
 ```
